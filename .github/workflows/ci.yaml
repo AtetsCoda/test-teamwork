@@ -39,6 +39,6 @@ jobs:
     steps:
         - uses: actions/checkout@v3
         - name: Check BEM
-          uses: chvllad/bem-validator-action@v0.4
+          uses: chvllad/bem-validator-action@v0.5
           with:
             html: '*.html'
